@@ -16,10 +16,10 @@
  
 public class elecciones
 {
-    public void Resultados(string nombre, string cargo, string partido, float votos,  float porcentaje, string fundacion, int posicion)
+    public void Resultados(string nombre, string cargo, string partido, string siglas, float votos,  float porcentaje, string fundacion, int posicion)
     {
 
-        Console.WriteLine("\n ~ Partido: {0}    ||   Fundacion: {1} ", partido, fundacion);
+        Console.WriteLine("\n ~ Partido: {0} ({1})    ||   Fundacion: {2} ", partido,siglas, fundacion);
         Console.WriteLine("\n ~ Nombre: " + nombre);
         Console.WriteLine(" ~ Cargo:  " + cargo);
 

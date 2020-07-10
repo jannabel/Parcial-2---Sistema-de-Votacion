@@ -103,28 +103,28 @@ namespace Sistema_de_votacion
                 if (votoss[i] == c1)
                 {
                     Console.Clear();
-                    elecciones.Resultados(Candidato1.Nombre, Candidato1.Cargo, Candidato1.Nombre_Partido, Candidato1.votos, Candidato1.pvotos, Candidato1.Fundacion_Partido, posicion);
+                    elecciones.Resultados(Candidato1.Nombre, Candidato1.Cargo, Candidato1.Nombre_Partido, Candidato1.Siglas_Partido, Candidato1.votos, Candidato1.pvotos, Candidato1.Fundacion_Partido, posicion);
                     Console.ReadKey();
                                     
                 }
                 else if (votoss[i] == c2)
                 {
                     Console.Clear();
-                    elecciones.Resultados(Candidato2.Nombre, Candidato2.Cargo, Candidato2.Nombre_Partido, Candidato2.votos, Candidato2.pvotos, Candidato2.Fundacion_Partido, posicion);
+                    elecciones.Resultados(Candidato2.Nombre, Candidato2.Cargo, Candidato2.Nombre_Partido, Candidato2.Siglas_Partido, Candidato2.votos, Candidato2.pvotos, Candidato2.Fundacion_Partido, posicion);
                     Console.ReadKey();
                     
                 }
                 else if (votoss[i] == c3)
                 {
                     Console.Clear();
-                    elecciones.Resultados(Candidato3.Nombre, Candidato3.Cargo, Candidato3.Nombre_Partido, Candidato3.votos, Candidato3.pvotos, Candidato3.Fundacion_Partido, posicion);
+                    elecciones.Resultados(Candidato3.Nombre, Candidato3.Cargo, Candidato3.Nombre_Partido, Candidato3.Siglas_Partido, Candidato3.votos, Candidato3.pvotos, Candidato3.Fundacion_Partido, posicion);
                     Console.ReadKey();
                     
                 }
                 else if (votoss[i] == c4)
                 {
                     Console.Clear();
-                    elecciones.Resultados(Candidato4.Nombre, Candidato4.Cargo, Candidato4.Nombre_Partido, Candidato4.votos, Candidato4.pvotos, Candidato4.Fundacion_Partido, posicion);
+                    elecciones.Resultados(Candidato4.Nombre, Candidato4.Cargo, Candidato4.Nombre_Partido, Candidato4.Siglas_Partido, Candidato4.votos, Candidato4.pvotos, Candidato4.Fundacion_Partido, posicion);
                     Console.ReadKey();                    
                 }
 
