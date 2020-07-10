@@ -1,13 +1,5 @@
 ﻿using System;
 
-  public struct Partido
-        {
-
- 
-        
-        }
-
-
         public struct Candidato
         {
 
@@ -24,10 +16,6 @@
  
 public class elecciones
 {
-
-
-
-
     public void Resultados(string nombre, string cargo, string partido, float votos,  float porcentaje, string fundacion, int posicion)
     {
 

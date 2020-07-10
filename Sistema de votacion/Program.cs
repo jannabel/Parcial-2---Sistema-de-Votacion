@@ -18,9 +18,6 @@ namespace Sistema_de_votacion
 {
     class Program
     {
-
-      
-
         static void Main(string[] args)
         {
             var elecciones = new elecciones();
@@ -128,11 +125,10 @@ namespace Sistema_de_votacion
                 {
                     Console.Clear();
                     elecciones.Resultados(Candidato4.Nombre, Candidato4.Cargo, Candidato4.Nombre_Partido, Candidato4.votos, Candidato4.pvotos, Candidato4.Fundacion_Partido, posicion);
-                    Console.ReadKey();
-                    
+                    Console.ReadKey();                    
                 }
+
             }
         }
-
     }
 }
