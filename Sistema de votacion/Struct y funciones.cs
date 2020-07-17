@@ -26,5 +26,6 @@ public class elecciones
         Console.WriteLine("\n ~ Cantidad de votos: " + votos);
         Console.WriteLine(" % de votos obtenidos:" + porcentaje.ToString("0.00") + "%");
         Console.WriteLine("\n ~ Posicion numero: " + posicion+ " de 4");
+        Console.WriteLine("\n\n Presione una tecla para continuar... ");
     }
 }
